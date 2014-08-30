@@ -49,11 +49,12 @@ ul > li > a:hover {
   margin-bottom: -15px;
 }
 .paragraph{
-  font-family: Verdana;
+  font-family: Verdana, serif;
+  text-indent: 50px;
 }
 
 #footer {
-  position:absolute;
+  position:fixed;
   bottom:0; /*had to google*/
   right:0;/*had to google*/
 }
