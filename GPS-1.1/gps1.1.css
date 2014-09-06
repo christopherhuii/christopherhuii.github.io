@@ -1,0 +1,45 @@
+/* include your css here */
+* {
+  background-color: #FFFFBE;
+  font-family: "Gill Sans";
+}
+
+#header {
+  text-align: center;
+  font-size: 50px;
+}
+
+#body {
+  margin: 0px 100px 0px 100px;
+}
+
+ul {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul > li {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: normal;
+  list-style: none;
+  /* text-indent: 50px; */
+  margin: 0px 100px 0px 100px;
+}
+
+p {
+  font-size: 30px;
+  margin-top: -8px;
+}
+
+#reflection{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#reflection > p {
+  font-size: 16px;
+  margin: 0px 175px 0px 175px;
+  text-align: left;
+}
