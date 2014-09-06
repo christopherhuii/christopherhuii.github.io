@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Christopher Hui's Blog</title>
+    <link rel ="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <p>CHRISTOPHER HUI</p>
+      <h1>WEB DEVELOPER</h1>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Me </a></li>
+      <li><a href="#">Blog </a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+    <hr>
+    <div class="body">
+      <h1 id="blog-title"><!--Title of blog goes in here-->Blog #3: Borders vs Margins vs Padding</h1>
+      <p id="blog-date"><!--Date of blog goes in here-->9/6/2014<br><!--Time here-->12:00PM</p>
+      <p class="paragraph"><!--Insert one paragraph here-->When I first started learning HTML/CSS, one of the fundamental concepts that went overlooked was margins, borders, and padding. While they may sound like the same function, understanding all of these properties can help reduce the amount of frustration when trying to figure out why your webpage isn’t formatting correctly. Before we dive into these concepts, take a look at this image and try to figure out what is going on.</p>
+      <img src="../imgs/MBP-compare.png" />
+      <p class="paragraph"><!--Insert another paragraph here!-->As you may or may not have noticed, everything is contained within a box. This is because HTML/CSS follows the <strong>Box Model</strong>. The box model states that each HTML element is contained within a box. Any words or image on HTML is contained within a box. These words I am typing are contained within a box. Simple enough, right? Let’s move on.</p>
+      <p class="paragraph"><!--Insert another paragraph here!-->Any words I type or images I put on this page are going to be contained within a box, right? Yes! These words and/or images are called the <strong>content</strong>. That should be pretty simple to understand. The content is the information that you are adding to the page. Surrounding the content is going to be the border. The <strong>border</strong> is is what is going to be surrounding the content.  Using CSS, we can adjust all sorts of different properties with borders. We can make them blue, red, fat, skinny, solid, dashed, etc. We’ve all seen borders and what they look like, so there isn’t much more to explain. Before we get into the next section, take a look at this image and see if you can figure out what the next property is!</p>
+      <img src="../imgs/borders-padding.png" />
+      <p class="paragraph"><!--Insert another paragraph here!-->The next property we’re going to look at is the padding. The <strong>padding</strong> is the space that is in-between the CONTENT and the BORDER. I want to emphasize rereading that last sentence a few times before moving on. Then take a look at the image above and visualize what the padding is.  We can see that there is an image (which is the <strong>content</strong>). And around that, we have a border. BUT, in between the border and the content, is the <strong>padding</strong>. The padding in the image above is 5px. Just a quick note, you can isolate adding padding to each individual side: top, bottom, left, and right. It is important to remember that the padding is in-between the content and the border. It is easy to get the padding mixed up with the margin.</p>
+      <p class="paragraph"><!--Insert another paragraph here!-->Now, the <strong>margin</strong> is the area OUTSIDE of the border. We’ve all seen margins on Microsoft Word or other applications, but the margins are on the outside. Like I said before, try not to get padding and margin mixed up. Padding is inside the border, while margin is outside the border. Again, margins can be isolated to each side. Take a look at the first image for reference!</p>
+      <p class="paragraph"><!--Insert another paragraph here!-->I hope I have helped clear up any doubts you might have had about borders, padding, or margins. If you are still a little fuzzy about the differences between these properties, I encourage you to try adding padding, margins, and borders to a document and see how they affect the positioning of the elements!</p>
+
+    </div>
+
+    <div id="footer">
+      <a href="https://www.facebook.com/christopherhui">
+        <img src="../imgs/facebook.png" /></a>
+      <a href="https://www.twitter.com/ChristopherHui">
+        <img src="../imgs/twitter.png" /></a>
+      <a href="https://www.linkedin.com/pub/christopher-hui/9b/1a9/28a">
+        <img src="../imgs/linkedin.png" /></a>
+      <a href="https://www.github.com/christopherhuii">
+        <img src="../imgs/github.png" /></a>
+    </div>
+
+
+  </body>
+
+</html>
