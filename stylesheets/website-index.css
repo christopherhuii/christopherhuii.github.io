@@ -49,6 +49,7 @@ html, body{
   /*position: relative;*/
   background-image: url("../imgs/wood.jpg");
   margin-top: 10px;
+  padding-bottom: 2px;
 
 }
 
