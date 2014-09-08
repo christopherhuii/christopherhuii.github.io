@@ -74,13 +74,16 @@ html, body{
   float: left;
   margin-right: 4%;
   margin-left: 1%;
+  background-image: url("http://i2.cdn.turner.com/cnn/dam/assets/130724121711-handwriting-story-top.jpg");
 }
 
 #middle {
+  background-image: url("http://cache.desktopnexus.com/thumbnails/251984-bigthumbnail.jpg");
 
 }
 
 #right {
+  background-image: url("http://us.123rf.com/400wm/400/400/olechowski/olechowski1109/olechowski110900056/10671749-teamwork-and-strategy-concept-in-word-tag-cloud.jpg");
   float: right;
   margin-right: 1%;
 }
