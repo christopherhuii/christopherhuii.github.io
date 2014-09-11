@@ -77,7 +77,8 @@ html, body{
   padding: 5px;
   padding-left:px;
   color: black;
-  font-family: "century gothic";
+  font-family: "Josefin Sans", "century gothic";
+  font-size: 19px;
   line-height: 25px;
 
 }
