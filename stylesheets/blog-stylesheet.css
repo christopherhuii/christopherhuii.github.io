@@ -1,5 +1,5 @@
 *{
-  background-color: grey;
+  background-color: #DEDEE8;
 }
 
 .header {
@@ -60,7 +60,7 @@ ul > li > a:hover {
 }
 .paragraph{
   font-family: "Poiret One", "century gothic";
-  text-indent: 50px;
+  /*text-indent: 50px;*/
   font-size: 18px;
 }
 
