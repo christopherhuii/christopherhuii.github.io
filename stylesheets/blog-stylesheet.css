@@ -20,10 +20,11 @@
 }
 
 ul {
+  font-family: "Century Gothic";
   margin-top: -20px;
   margin-bottom: 0px;
   list-style-type: none; /*Had to google this*/
-  font-family: "Century Gothic";
+  font-family: ;
   float: right;
 }
 
@@ -48,13 +49,19 @@ ul > li > a:hover {
 }
 
 #blog-title {
+  font-family: "Poiret One", "century gothic";
   text-decoration: underline;
   margin-left: -20px;
   margin-bottom: -15px;
 }
+
+#blog-date{
+  font-family: "Poiret One", "century gothic";
+}
 .paragraph{
-  font-family: Verdana, serif;
+  font-family: "Poiret One", "century gothic";
   text-indent: 50px;
+  font-size: 18px;
 }
 
 .body img {
