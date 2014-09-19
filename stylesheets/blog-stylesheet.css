@@ -64,6 +64,9 @@ ul > li > a:hover {
   font-size: 18px;
 }
 
+pre {
+  text-align: center;
+}
 .body img {
   display: block;
   margin-left: auto;

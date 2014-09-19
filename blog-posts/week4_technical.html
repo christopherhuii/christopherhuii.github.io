@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Christopher Hui's Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link rel ="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <p>CHRISTOPHER HUI</p>
+      <h1>Student @ Dev Bootcamp</h1>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Me </a></li>
+      <li><a href="#">Blog </a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+    <hr>
+    <div class="body">
+      <h1 id="blog-title">Blog #5: Ruby: Enumerable Cycle</h1>
+      <p id="blog-date">9/18/2014<br>5:54 PM</p>
+      <p class="paragraph"><strong>Enumerable Methods</strong> in Ruby allow Rubyists to traverse, search, sort, and transform collections. These methods have proven to be extremely helpful when developers need to manipulate a collection. The method I will be focusing on in this blog post is <strong>cycle</strong></p>
+      <p class="paragraph"><strong>Enumerable#cycle</strong> will call a block for each element repeatedly for <em>n</em> times (or forever if the number of times is not specified). Passing an argument through a cycle will iterate the collection the specified number of times. If there is no number of times specified, it will iterate an infinite number of times (thus creating an infinite loop).</p>
+      <p class="paragraph">I will only touch base on a few examples, but I encourage those who are reading to play with this method on their own in order to fully understand how this enumerable method works. I find that playing around with methods in IRB (Interactive Ruby Shell) is one of the more effective ways of helping me solidify my understanding of different concepts. </p>
+      <p class="paragraph">If you’re lost right now, fear not! I feel the same way sometimes when I read through the ruby-docs. Hopefully the examples below help you understand what is going on!</p>
+      <p class="paragraph"><!--Insert another paragraph here!--></p>
+      <pre>[1,2,3].cycle(1) {|i| puts i} => 1 2 3 </pre>
+      <p class="paragraph">As you can see above, we cycled the array once. Let's see what happens when you cycle(2).</p>
+      <pre>[1,2,3].cycle(2) {|i| puts i} => 1 2 3 1 2 3 </pre>
+      <p class="paragraph">I hope you saw that output coming! This is the basic idea behind cycles. You can experiment with other ways to use it! Take a look below and see what I did there.</p>
+      <pre>[1,2,3].cycle(3) {|i| puts i*i} => 1 4 9 1 4 9 1 4 9 </pre>
+      <p class="paragraph">I hope you understood what happened there! Like I said before, there are tons of ways to utilize different methods in your code. I’m just showing very basic examples. </p>
+      <p class="paragraph">With that said, I’m going to close shop for this blog post now. Go ahead and test out different use this method. Try manipulating collections in different ways and try chaining together different methods with cycle. Have fun with it!</p>
+    </div>
+
+    <div id="footer">
+      <a href="https://www.facebook.com/christopherhui">
+        <img src="../imgs/facebook.png" /></a>
+      <a href="https://www.twitter.com/ChristopherHui">
+        <img src="../imgs/twitter.png" /></a>
+      <a href="https://www.linkedin.com/pub/christopher-hui/9b/1a9/28a">
+        <img src="../imgs/linkedin.png" /></a>
+      <a href="https://www.github.com/christopherhuii">
+        <img src="../imgs/github.png" /></a>
+    </div>
+
+
+  </body>
+
+</html>
