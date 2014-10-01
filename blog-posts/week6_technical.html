@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Christopher Hui's Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel ="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <p>CHRISTOPHER HUI</p>
+      <h1>Student @ Dev Bootcamp</h1>
+    </div>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about-me.html">About Me </a></li>
+      <li><a href="../blog-posts/blog-page.html">Blog </a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+    <hr>
+    <div class="body">
+      <h1 id="blog-title">Blog #10: Ruby: Variable Scopes</h1>
+      <p id="blog-date"><!--date--><br><!--time--></p>
+      <p class="paragraph">In Algebra, variables serve as placeholders for other values. The use of variables in Algebra is no different from the use of variables in Ruby. Variables in Ruby serve as placeholders for data. However,  there are four different type of variables in Ruby. These four are: <strong>local global, instance, and class</strong> variables. These four different types of variables are necessary in Ruby because they each have different scopes. <strong>Scope</strong> of a variable determines where a variable is accessible in a program. I will go into more detail of the scope of each variable in the following section.</p>
+      <p class="paragraph">The first variable we will talk about is the <strong>Global Variable</strong>. Global variables are created with a $ sign as its prefix. For example:<pre>$globe = “This is a global variable”</pre></p>
+      <p class="paragraph">In the example above, I created a global variable called ‘globe’ that stores the string “This is a global variable”. Global variables can be accessed from anywhere in a Ruby program. Global variables are visible throughout an entire program and can be changed anywhere throughout a program. Because global variables’ scopes are so broad, the use of global variables are strongly discouraged. Generally, programmers want everything to be as closed as possible. This helps future debugging because it is easier to narrow down the scope of the problem. Obviously, global variables still exist for a reason. Be sure to use them sparingly and wisely in order the help the sustainability of your program as it grows.</p>
+      <p class="paragraph">The second variable is the <strong>Local Variable</strong>. Local variables can be constructed with a lowercase letter, underscores, or digits. There is no prefix to declare a local variable. The look of a local variable is completely dependent on the person writing a code. If somebody were making a local variable that store the value of a first name, they may declare the variable name as, “first_name”. Personally, I prefer to avoid underscores and use capitalization to separate words like, “firstName”.</p>
+      <p class="paragraph">The scope of a local variable is limited to the block that the variable is declared in. Once the block ends, the variable cannot be accessed from anywhere outside the block of code. For example, if a local variable is declared in the method “firstName”, it cannot be accessed from the method “fullName” because it’s scope is limited in “firstName”. In addition to that, local variables cannot be accessed outside of the loop it is defined in. The scope of local variables is fairly limited.</p>
+      <p class="paragraph">The third variable is the <strong>Instance Variable</strong>. I briefly went over instance variables in a previous blog, but I’ll repeat myself again for clarity. Instance variables are prefixed with a single @ sign. @first_name and @age are examples of instance variables. Instance variables serve the purpose of storing information at a certain instance of an object. Instance variables’ scopes are limited to the class that they are defined in. With that said, instance variables can be accessed in multiple methods as long as they are all contained within the same class. Instance variables are able the store the information during each instance that it is being used. Objects can have their own local copy of the instance variable and their copy is independent of whatever changes are being made in the class. Instance variables are useful because it allows the scope to be wide enough for an entire class.</p>
+      <p class="paragraph">The fourth and last variable is the <strong>Class Variable</strong>. Class variables are prefixed with a double @@ sign. For example, @@first_name and @@age are class variables. Class variables are shared amongst all instances of a class. This is very similar to an instance variable, but class variables do not store each individual instance of an object. One variable exists for all the objects inside a class. Once one object changes the variable, it is changed for all objects. A class variable’s scope is limited to the class that it is defined in. A simple way of thinking of it is that a class variable is a global variable within the class that it is defined in.</p>
+      <p class="paragraph">We have gone over four different variables supported by Ruby. They might be a little confusing now, but the only way to clear up the confusion is to use them and understand their differences in your own code. I will briefly recap the scope of these variables below.</p>
+      <p class="paragraph"><strong>Global Variables</strong> can be accessed from anywhere in a program.<br>
+<strong>Local Variables</strong> can be accessed <strong>ONLY</strong> from where they are defined (e.g. Method or Loop).<br><strong>Instance Variables</strong> can be accessed from anywhere within a class and each object can store their own instance of the variable.<br><strong>Class Variables</strong> can be accessed from anywhere within a class, but there is only a single instance of the variable that is shared between all the objects. </p>
+      <p class="paragraph">I hope you enjoyed this blog post and hope you have a nice day!</p>
+      <p class="paragraph"><!--Insert another paragraph here!--></p>
+      <p class="paragraph"><!--Insert another paragraph here!--></p>
+      <p class="paragraph"><!--Insert one paragraph here--></p>
+      <p class="paragraph"><!--Insert another paragraph here!--></p>
+      <p class="paragraph"><!--Insert another paragraph here!--></p>
+      <p class="paragraph"><!--Insert another paragraph here!--></p>
+    </div>
+
+    <div id="footer">
+      <a href="https://www.facebook.com/christopherhui">
+        <img src="../imgs/facebook.png" /></a>
+      <a href="https://www.twitter.com/ChristopherHui">
+        <img src="../imgs/twitter.png" /></a>
+      <a href="https://www.linkedin.com/pub/christopher-hui/9b/1a9/28a">
+        <img src="../imgs/linkedin.png" /></a>
+      <a href="https://www.github.com/christopherhuii">
+        <img src="../imgs/github.png" /></a>
+    </div>
+
+
+  </body>
+
+</html>
