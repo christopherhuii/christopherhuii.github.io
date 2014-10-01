@@ -49,17 +49,17 @@ ul > li > a:hover {
 }
 
 #blog-title {
-  font-family: "Poiret One", "century gothic";
+  font-family: "Montserrat", "century gothic";
   text-decoration: underline;
   margin-left: -20px;
   margin-bottom: -15px;
 }
 
 #blog-date{
-  font-family: "Poiret One", "century gothic";
+  font-family: "Montserrat", "century gothic";
 }
 .paragraph{
-  font-family: "Poiret One", "century gothic";
+  font-family: "Montserrat", "century gothic";
   /*text-indent: 50px;*/
   font-size: 18px;
 }
