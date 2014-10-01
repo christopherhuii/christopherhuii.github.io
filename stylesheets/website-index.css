@@ -27,6 +27,7 @@ nav a{
   font-size: 18px;
   margin-left: 50px; /*because the padding-right on "contact me" makes it off center, so offset with margin-left */
   padding-right: 50px;
+  font-family: "Montserrat";
 }
 nav a:hover{
   font-weight: bold;
