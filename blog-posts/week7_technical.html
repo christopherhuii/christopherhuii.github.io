@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Christopher Hui's Blog</title>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link rel ="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <p>CHRISTOPHER HUI</p>
+      <h1>Student @ Dev Bootcamp</h1>
+    </div>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about-me.html">About Me </a></li>
+      <li><a href="../blog-posts/blog-page.html">Blog </a></li>
+      <li><a href="#">Contact Me</a></li>
+    </ul>
+    <hr>
+    <div class="body">
+      <h1 id="blog-title">Blog #12: SQL vs NoSQL</h1>
+      <p id="blog-date">10/9/2014<br>5:37 PM</p>
+      <p class="paragraph">Competition is driven by two parties trying to be the “best”. Whether if it’s Lakers vs. Clippers, Apple vs. Windows, or iPhone vs. Galaxy, competition is all around us. The purpose of competition is to be the best. For the Lakers, they want to be the best basketball team. For Apple, they want to create the most powerful, efficient, and technologically advanced products. In this blog, I will be comparing the two databases SQL and NoSQL. People have compared and contrasted these two databases in order to determine which one is the “best”. In order to do that, we must compare and contrast the pros and cons to each database.</p>
+      <p class="paragraph">First, I will briefly go over SQL. <strong>SQL</strong> is a <strong>Relational Database</strong>. A relational databases stores data into tables and forms relationship with other tables to match data in order to retrieve information. These tables store data in the from or rows and columns(like an Excel spreadsheet). By matching up data, this will create a chain of tables, known as a <strong>schema</strong>.</p>
+      <p class="paragraph">Given that the data must fit in to tables consisting of rows and columns, SQL database data can only get so complex. These tables must be designed in a way where the data can be represented properly. This can prove to be difficult, especially if the information is very complex. With that said, the more complex the schema is, the more reliance there is on powerful servers. Servers aren’t free and can prove to be expensive if you need more power. In order the handle all the tables, scaling up existing hardware is necessary so that it can handle the massive amounts of data.</p>
+      <p class="paragraph">Examples of SQL databases are: MySQL, Oracle, SqLite, PostgreSQL, and MS-SQL.</p>
+      <p class="paragraph"><strong>NoSQL</strong> is short for “Not Only SQL”. NoSQL is a form of database management systems(DBMS). The main characteristic that separates NoSQL from SQL is that it is not a relational database. Because NoSQL is not a relational database, this means that there is no predetermined schema is must follow. NoSQL is characterized as “dynamic schema for unstructured data”. There are many ways of storing data with the use of, document-based stores, column-oriented databases, and key-value stores. NoSQL grew popular because of companies that dealt with massive amounts of data. Massive amounts of data caused servers to slow down. With a non-relational database, NoSQL is able to distribute the data load onto multiple servers in order to speed things up.</p>
+      <p class="paragraph">Examples of NoSQL databases are: MongoDB, BigTable, Redis, RavenDB, Neo4j, CouchDB</p>
+      <p class="paragraph">After reading the general information about SQL and NoSQL, it is obvious each of the two have their advantages and disadvantages. SQL’s advantage is that it emphasizes ACID properties (Atomicity, Consistency, Isolation, and Durability) because of its rigid schema layout. SQL can handle data with a high level of accuracy. This is not guaranteed with a NoSQL database because there is no rigid schema. However, because NoSQL is not a relational database, NoSQL can scale out the massive data onto multiple servers, thus allowing it to process data faster than a SQL database. NoSQL data models are also simpler because they are more flexible and do not require a strict schema. This is attractive for developers because this allows them to store data in ways that meets their application’s needs. They don’t need to adhere to a strict schema.</p>
+      <p class="paragraph">At the end of a competition, there is usually a clear-cut winner. You’re probably looking for that answer. Unfortunately, there is no winner or loser here. SQL and NoSQL both have their strengths and weaknesses. A developer may not have massive amounts of data so their needs are more prioritized in accuracy, rather than speed. SQL would be the better option for them. On the other hand, a much bigger company might be handling massive amounts of data, so they would opt with the NoSQL database because it is handles data quicker. Both of these databases have their strengths, and it is up to the developer to assess the situation and choose the best database for their project.</p>
+    </div>
+
+    <div id="footer">
+      <a href="https://www.facebook.com/christopherhui">
+        <img src="../imgs/facebook.png" /></a>
+      <a href="https://www.twitter.com/ChristopherHui">
+        <img src="../imgs/twitter.png" /></a>
+      <a href="https://www.linkedin.com/pub/christopher-hui/9b/1a9/28a">
+        <img src="../imgs/linkedin.png" /></a>
+      <a href="https://www.github.com/christopherhuii">
+        <img src="../imgs/github.png" /></a>
+    </div>
+
+
+  </body>
+
+</html>
