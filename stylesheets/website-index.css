@@ -56,10 +56,11 @@ html, body{
 
 #container a {
   width: 100%;
+  border-radius: 50px;
   display: inline-block;
   height: 350px;
   width: 30%;
-  border: 1px solid #E5E5E5;
+  border: 2px solid #E5E5E5;
   margin-top: 5%;
   text-align: center;
   font-family: "Raleway";
@@ -70,7 +71,8 @@ html, body{
 }
 
 #container a:hover {
-  border:2px solid #E5E5E5;
+  border:2.5px solid #E5E5E5;
+  font-size: 33px;
 }
 
 #left {
