@@ -33,7 +33,7 @@ nav a:hover{
 }
 
 hr {
-  border-color: #E5E5E5;
+  border-width: 1px 0 0 0;
 }
 
 /********************BODY BOXES*************************/
