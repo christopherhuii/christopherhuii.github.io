@@ -27,16 +27,16 @@ nav a{
   font-size: 18px;
   margin-left: 50px; /*because the padding-right on "contact me" makes it off center, so offset with margin-left */
   padding-right: 50px;
-  font-family: "Montserrat";
+  text-decoration: none;
+
 }
 nav a:hover{
-  font-weight: bold;
+  text-decoration: underline;
 }
 
-hr {
-  border-color: #E5E5E5;
+hr{
+  border-width: 1px 0 0 0;
 }
-
 /********************BODY BOXES*************************/
 
 html, body{
@@ -84,6 +84,7 @@ html, body{
 
 #middle {
   background-image: url("http://cache.desktopnexus.com/thumbnails/251984-bigthumbnail.jpg");
+  background-size: 390px 360px;
 
 }
 
