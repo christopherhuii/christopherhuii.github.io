@@ -24,6 +24,7 @@ body {
 .above-fold-panel {
   height: 100vh;
   text-align: center;
+  opacity: 0;
 }
 .upper,
 .lower {
@@ -69,6 +70,11 @@ body {
 #learn-more {
   font-size: 5rem;
   color: black;
+}
+
+#learn-more:hover {
+  text-decoration: none;
+  color: #545454;
 }
 
 /* End */
@@ -154,14 +160,6 @@ body {
   padding: 0% 25%;
 }
 
-/*@media (max-width: 767px) {
-  .square-box p,
-  .why-mx p,
-  .random-facts p {
-    padding: 0% 5%;
-  }
-}*/
-
 .projects {
   height: 40rem;
   margin-top: 3%;
@@ -169,6 +167,7 @@ body {
 }
 .projects h1 {
   text-align: center;
+  margin-bottom: 2%;
 }
 
 #dbc-rpg img {
