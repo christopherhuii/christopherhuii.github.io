@@ -1,7 +1,14 @@
+
 /* iPhone 5 */
 @media (max-device-width: 568px) {
+
+  .above-fold-panel {
+    margin: 50% 0;
+    height: auto;
+  }
+
   .above-fold-panel h1 {
-    font-size: 4rem;
+    font-size: 38px;
   }
 
   ul.social-media-links {
@@ -12,7 +19,13 @@
     margin: 0;
   }
 
-  .why-mx p {
+  .why-mx p,
+  .random-facts p {
     padding: 0 10%;
   }
+
+  .project-image {
+    margin: 10% 0;
+  }
 }
+

@@ -66,6 +66,9 @@ body {
   display: inline;
   padding: 0 3%;
 }
+.social-media-links a {
+  color: #00c3ff;
+}
 
 #learn-more {
   font-size: 5rem;
@@ -143,6 +146,7 @@ body {
   .square-box,
   .misc-info {
     height: auto;
+    padding: 5% 0;
   }
 
   #photoset,
