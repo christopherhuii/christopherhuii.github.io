@@ -32,20 +32,13 @@
 
 }
 
-@media (max-width: 638px) {
-  .upper h1 {
-    font-size: 4rem;
-  }
-}
-
-
 @media (max-width: 991px) {
   .projects {
     background-color: #e7e7e7;
   }
 
   .squarebox {
-    width: 85%;
+    width: 90%;
     margin: 3% auto;
   }
 

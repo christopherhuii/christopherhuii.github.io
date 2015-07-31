@@ -27,6 +27,10 @@ ul {
   padding: 0;
 }
 
+.row {
+  margin: 0;
+}
+
 /* Above the Fold Styling */
 
 .above-fold-panel {
