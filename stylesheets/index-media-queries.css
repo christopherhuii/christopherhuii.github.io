@@ -1,0 +1,63 @@
+
+/* iPhone 5 */
+@media (max-device-width: 568px) {
+
+  .above-fold-panel {
+    padding-top: 40%;
+    height: 100vh;
+  }
+
+  .above-fold-panel h1 {
+    font-size: 38px;
+  }
+
+  .above-fold-panel h2 {
+    font-size: 3.5rem;
+  }
+
+  .upper,
+  .lower {
+    top: 0%;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  ul.social-media-links {
+    padding: 0;
+  }
+
+  #explore {
+    margin-top: 15%;
+  }
+
+}
+
+@media (max-width: 638px) {
+  .upper h1 {
+    font-size: 4rem;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .projects {
+    background-color: #e7e7e7;
+  }
+
+  .squarebox {
+    width: 85%;
+    margin: 3% auto;
+  }
+
+  #brewed {
+    background-position: 6% 50%;
+  }
+}
+
+@media (max-width: 1149px) {
+  .vertical-center {
+      top: 0%;
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+  }
+}
