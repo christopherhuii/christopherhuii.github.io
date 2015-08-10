@@ -75,20 +75,36 @@ ul {
 
 #explore {
   font-size: 40px;
-  color: black;
 }
 
 /* End */
-
 .projects {
   max-width: 1400px;
   margin: 0 auto;
   overflow: hidden;
 }
 
+.about-me {
+  height: 35rem;
+  background-color: #e9e9e9;
+}
+
+h1#about-me-title {
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.about-me p {
+  font-size: 18px;
+  padding: 0 15%;
+  text-align: justify;
+  line-height: 35px;
+}
+
 h1.title {
   text-align: center;
   margin: 3% 0;
+  color: black;
 }
 
 .squarebox {
@@ -98,7 +114,6 @@ h1.title {
   border: 1px solid black;
   border-top: 5px solid #00c3ff;
 }
-
 
 .layer {
   height: 100%;
@@ -126,6 +141,7 @@ h1.title {
 .vertical-center h1 {
   color: white;
 }
+
 
 #dbc-rpg {
   background-image: url('../imgs/dbc-rpg.png');

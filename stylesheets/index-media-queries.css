@@ -30,12 +30,14 @@
     margin-top: 15%;
   }
 
+  .about-me p {
+    font-size: 16px;
+    padding: 0 5%;
+    line-height: 28px
+  }
 }
 
 @media (max-width: 991px) {
-  .projects {
-    background-color: #e7e7e7;
-  }
 
   .squarebox {
     width: 90%;
@@ -52,5 +54,10 @@
       top: 0%;
       -webkit-transform: translateY(0%);
       transform: translateY(0%);
+  }
+
+  .about-me {
+    height: auto;
+    padding: 3rem 0;
   }
 }
