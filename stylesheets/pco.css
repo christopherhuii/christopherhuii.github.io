@@ -19,6 +19,9 @@ body {
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
 /* Above the Fold Styling */
 
 .above-fold-panel {
@@ -34,15 +37,6 @@ body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-/*@media (max-width: 767px) {
-  .upper,
-  .lower {
-    top: 0%;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
-  }
-}*/
 
 .above-fold-panel h1 {
   font-size: 6rem;
@@ -86,11 +80,6 @@ body {
   height: 100rem;
 }
 
-/*@media (max-width: 767px) {
-  #box-grid {
-    height: auto;
-  }
-}*/
 
 .square-box {
   height: 50rem;
@@ -99,7 +88,7 @@ body {
 }
 
 .square-box h1,
-.why-kajabi h1,
+.why-pco h1,
 .projects h1 {
   margin: 0;
 }
@@ -142,19 +131,6 @@ body {
   text-align: center;
 }
 
-/*@media (max-width: 767px) {
-  .square-box,
-  .misc-info {
-    height: auto;
-    padding: 5% 0;
-  }
-
-  #photoset,
-  #programming-box {
-    height: 30rem;
-  }
-}*/
-
 #random {
   background-color: #e4e4e4;
 }
@@ -163,7 +139,7 @@ body {
   padding: 0 20%;
 }
 
-.why-kajabi p {
+.why-pco p {
   text-align: justify;
   padding: 0% 25%;
 }
@@ -193,3 +169,94 @@ body {
   width: 100%;
 }
 
+.lakers {
+  color: #fdb927;
+}
+
+.packers {
+  color: #203731;
+}
+
+.dodgers {
+  color: #005596;
+}
+
+/* iPhone 5 */
+@media (max-device-width: 568px) {
+
+  .above-fold-panel {
+    margin: 40% 0;
+    height: auto;
+  }
+
+  .above-fold-panel h1 {
+    font-size: 38px;
+  }
+
+  .above-fold-panel h2 {
+    font-size: 3.5rem;
+  }
+
+  .upper,
+  .lower {
+    top: 0%;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  ul.social-media-links {
+    padding: 0;
+  }
+
+  #learn-more {
+    font-size: 4rem;
+  }
+
+  .about-me p {
+    margin: 0;
+  }
+
+  .why-pco p,
+  .random-facts p {
+    padding: 0 10%;
+  }
+}
+
+@media (max-width: 991px) {
+  #box-grid {
+    height: auto;
+  }
+
+  .square-box,
+  .misc-info {
+    height: auto;
+    padding: 5% 0;
+  }
+
+  #photoset,
+  #programming-box {
+    height: 30rem;
+  }
+
+  .why-pco p,
+  .random-facts {
+    padding: 0 10%;
+  }
+
+  .project-image {
+    margin: 10% 0;
+  }
+}
+
+@media (max-width: 1149px) {
+  .misc-info {
+    height: auto;
+  }
+
+  .vertical-center {
+      top: 0%;
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+  }
+}
