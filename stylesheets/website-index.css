@@ -167,3 +167,9 @@ h1.title {
   background-size: cover;
   margin-bottom: 5%;
 }
+
+#react-ios-calculator {
+  background-image: url('../imgs/react-ios-calculator.png');
+  background-position: 50% 50%;
+  background-size:cover;
+}
